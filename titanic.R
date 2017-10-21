@@ -63,4 +63,9 @@ train$Pclass<-as.factor(train$Pclass)
 #Two duplicate names, take a closer look 
 #First,get the duplicate names and store them as a vector
 dup.names<-as.character(data.combined[which(duplicated(as.character(data.combined$Name))),"Name"])
+
+
+
+
+# adding new code here.....
   
